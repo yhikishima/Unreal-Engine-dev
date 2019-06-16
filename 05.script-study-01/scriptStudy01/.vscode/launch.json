@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "scriptStudy01 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01 Mac Debug Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Binaries/Mac/scriptStudy01-Mac-Debug.app/Contents/MacOS/scriptStudy01-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01 Mac DebugGame Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Binaries/Mac/scriptStudy01-Mac-DebugGame.app/Contents/MacOS/scriptStudy01-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01 (Development)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01 Mac Development Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Binaries/Mac/scriptStudy01.app/Contents/MacOS/scriptStudy01",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01 Mac Shipping Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Binaries/Mac/scriptStudy01-Mac-Shipping.app/Contents/MacOS/scriptStudy01-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01 (Test)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01 Mac Test Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Binaries/Mac/scriptStudy01-Mac-Test.app/Contents/MacOS/scriptStudy01-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01Editor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/scriptStudy01.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01Editor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/scriptStudy01.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "scriptStudy01Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "scriptStudy01Editor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/scriptStudy01.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/scriptStudy01.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.22"
+		}
+	]
+}
