@@ -1,0 +1,995 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ScriptTest Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTest HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTest HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTest",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTestEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTestEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScriptTestEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "ScriptTestEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ScriptTestEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/ScriptTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		}
+	]
+}

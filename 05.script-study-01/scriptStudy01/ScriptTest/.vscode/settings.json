@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/.vscode": true,
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/Content": true,
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/Intermediate": true,
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/ScriptTest/Saved": true
+	}
+}
