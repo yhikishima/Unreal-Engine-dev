@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Chara (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Chara Mac Debug Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Binaries/Mac/Chara-Mac-Debug.app/Contents/MacOS/Chara-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Chara (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Chara Mac DebugGame Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Binaries/Mac/Chara-Mac-DebugGame.app/Contents/MacOS/Chara-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Chara (Development)",
+			"request": "launch",
+			"preLaunchTask": "Chara Mac Development Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Binaries/Mac/Chara.app/Contents/MacOS/Chara",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Chara (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Chara Mac Shipping Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Binaries/Mac/Chara-Mac-Shipping.app/Contents/MacOS/Chara-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Chara (Test)",
+			"request": "launch",
+			"preLaunchTask": "Chara Mac Test Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Binaries/Mac/Chara-Mac-Test.app/Contents/MacOS/Chara-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CharaEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CharaEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CharaEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CharaEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CharaEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CharaEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.22"
+		}
+	]
+}

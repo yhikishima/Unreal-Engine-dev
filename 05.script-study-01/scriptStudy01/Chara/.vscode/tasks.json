@@ -1,0 +1,995 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Chara Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chara HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Chara HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chara",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CharaEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CharaEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CharaEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "CharaEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CharaEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/05.script-study-01/scriptStudy01/Chara/Chara.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		}
+	]
+}
