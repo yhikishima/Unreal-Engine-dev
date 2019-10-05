@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Roguelike (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Roguelike Mac Debug Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Binaries/Mac/Roguelike-Mac-Debug.app/Contents/MacOS/Roguelike-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Roguelike (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Roguelike Mac DebugGame Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Binaries/Mac/Roguelike-Mac-DebugGame.app/Contents/MacOS/Roguelike-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Roguelike (Development)",
+			"request": "launch",
+			"preLaunchTask": "Roguelike Mac Development Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Binaries/Mac/Roguelike.app/Contents/MacOS/Roguelike",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Roguelike (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Roguelike Mac Shipping Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Binaries/Mac/Roguelike-Mac-Shipping.app/Contents/MacOS/Roguelike-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Roguelike (Test)",
+			"request": "launch",
+			"preLaunchTask": "Roguelike Mac Test Build",
+			"program": "/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Binaries/Mac/Roguelike-Mac-Test.app/Contents/MacOS/Roguelike-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "RoguelikeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RoguelikeEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "RoguelikeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RoguelikeEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "RoguelikeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RoguelikeEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.22"
+		}
+	]
+}

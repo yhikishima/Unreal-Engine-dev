@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/13.AshiyuRoguelike/Ver2/.vscode": true,
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/13.AshiyuRoguelike/Ver2/Content": true,
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/13.AshiyuRoguelike/Ver2/Intermediate": true,
+		"/Users/yhikishima-2/work/Unreal/Unreal-Engine/13.AshiyuRoguelike/Ver2/Saved": true
+	}
+}

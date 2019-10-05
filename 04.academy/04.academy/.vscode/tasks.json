@@ -1,0 +1,995 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Roguelike Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"Mac",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"IOS",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Shipping",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Roguelike HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Roguelike HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Roguelike",
+				"HTML5",
+				"Test",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"Debug",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "RoguelikeEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"RoguelikeEditor",
+				"Mac",
+				"Development",
+				"/Users/yhikishima-2/work/Unreal/Unreal-Engine/04.academy/04.academy/Roguelike.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		}
+	]
+}
