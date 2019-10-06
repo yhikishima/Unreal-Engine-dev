@@ -2,3 +2,5 @@
 **/DerivedDataCache
 **/Intermediate
 **/Saved
+
+**/cmake-build-debug
