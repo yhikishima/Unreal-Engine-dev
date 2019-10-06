@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/yhikishima-2/work/Unreal/Unreal-Engine/13.AshiyuRoguelike/Ver2
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/yhikishima-2/work/Unreal/Unreal-Engine/13.AshiyuRoguelike/Ver2/cmake-build-debug
