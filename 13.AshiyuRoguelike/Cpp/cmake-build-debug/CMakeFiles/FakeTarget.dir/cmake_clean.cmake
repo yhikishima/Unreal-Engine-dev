@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FakeTarget.dir/Source/Cpp/Core/CppGameInstance.cpp.o"
+  "CMakeFiles/FakeTarget.dir/Source/Cpp/Core/MainCharacter.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/Cpp/Core/MyClass.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/Cpp/Cpp.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/Cpp/CppGameModeBase.cpp.o"
