@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="UE4" targetName="UE4Game-TVOS-Shipping" />
+      <config projectName="UE4" targetName="Widget-Mac-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-Mac-Shipping" />
+      <config projectName="UE4" targetName="UE4Game-TVOS-DebugGame" />
+      <config projectName="UE4" targetName="WidgetEditor-Mac-Shipping" />
+      <config projectName="UE4" targetName="UE4Game-IOS-Shipping" />
+      <config projectName="UE4" targetName="FakeTarget" />
+      <config projectName="UE4" targetName="Widget-TVOS" />
+      <config projectName="UE4" targetName="Widget-IOS" />
+      <config projectName="UE4" targetName="WidgetEditor-IOS" />
+      <config projectName="UE4" targetName="UE4Game-IOS" />
+      <config projectName="UE4" targetName="WidgetEditor-Mac-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-Mac-DebugGame" />
+      <config projectName="UE4" targetName="Widget-IOS-DebugGame" />
+      <config projectName="UE4" targetName="UE4Editor-Mac-Shipping" />
+      <config projectName="UE4" targetName="WidgetEditor" />
+      <config projectName="UE4" targetName="UE4Editor" />
+      <config projectName="UE4" targetName="Widget" />
+      <config projectName="UE4" targetName="WidgetEditor-IOS-Shipping" />
+      <config projectName="UE4" targetName="Widget-TVOS-DebugGame" />
+      <config projectName="UE4" targetName="WidgetEditor-TVOS-DebugGame" />
+      <config projectName="UE4" targetName="Widget-TVOS-Shipping" />
+      <config projectName="UE4" targetName="WidgetEditor-IOS-DebugGame" />
+      <config projectName="UE4" targetName="Widget-Mac-Shipping" />
+      <config projectName="UE4" targetName="UE4Editor-Mac-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-IOS-DebugGame" />
+      <config projectName="UE4" targetName="WidgetEditor-TVOS" />
+      <config projectName="UE4" targetName="UE4Game" />
+      <config projectName="UE4" targetName="Widget-IOS-Shipping" />
+      <config projectName="UE4" targetName="UE4Game-TVOS" />
+      <config projectName="UE4" targetName="WidgetEditor-TVOS-Shipping" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f775bdb0-3366-413d-b7b4-fdc2178f979a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../12.Ashiyu2D/Ashiyu 4.23/Ashiyu.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Ashiyu2D/Ashiyu 4.23/Ashiyu.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Ashiyu2D/Ashiyu 4.23/Content/Maps/MyMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Ashiyu2D/Ashiyu 4.23/Content/Maps/MyMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Ashiyu2D/Ashiyu 4.23/Content/UI/HUD_BpUi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Ashiyu2D/Ashiyu 4.23/Content/UI/HUD_BpUi.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/BluePrints/BP_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/BluePrints/BP_Character.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap_BuiltData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Meshs/award.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Meshs/award.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Build/HTML5/FileOpenOrder/EditorOpenOrder.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Build/HTML5/FileOpenOrder/EditorOpenOrder.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main_BuiltData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title_BuiltData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.UE4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/UE4Game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/UE4Game.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Roguelike.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Roguelike.uproject" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ssm3DXc5iUp8ZxD9cPBNxbAYpx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.FakeTarget">
+    <configuration name="FakeTarget" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FakeTarget" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UE4" RUN_TARGET_NAME="FakeTarget">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Mac-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Mac-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Mac-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Mac-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-IOS-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-IOS-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-IOS-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-IOS-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-IOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-IOS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Mac-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Mac-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Mac-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Mac-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-TVOS-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-TVOS-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-TVOS-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-TVOS-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-TVOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-TVOS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-IOS-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-IOS-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-IOS-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-IOS-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-IOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-IOS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-Mac-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-Mac-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-Mac-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-Mac-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-TVOS-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-TVOS-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-TVOS-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-TVOS-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget-TVOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget-TVOS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widget" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="Widget" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-IOS-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-IOS-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-IOS-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-IOS-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-IOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-IOS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-Mac-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-Mac-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-Mac-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-Mac-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-TVOS-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-TVOS-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-TVOS-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-TVOS-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor-TVOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor-TVOS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WidgetEditor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WidgetEditor" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.FakeTarget" />
+      <item itemvalue="CMake Application.UE4Editor" />
+      <item itemvalue="CMake Application.UE4Editor-Mac-DebugGame" />
+      <item itemvalue="CMake Application.UE4Editor-Mac-Shipping" />
+      <item itemvalue="CMake Application.UE4Game" />
+      <item itemvalue="CMake Application.UE4Game-IOS" />
+      <item itemvalue="CMake Application.UE4Game-IOS-DebugGame" />
+      <item itemvalue="CMake Application.UE4Game-IOS-Shipping" />
+      <item itemvalue="CMake Application.UE4Game-Mac-DebugGame" />
+      <item itemvalue="CMake Application.UE4Game-Mac-Shipping" />
+      <item itemvalue="CMake Application.UE4Game-TVOS" />
+      <item itemvalue="CMake Application.UE4Game-TVOS-DebugGame" />
+      <item itemvalue="CMake Application.UE4Game-TVOS-Shipping" />
+      <item itemvalue="CMake Application.Widget" />
+      <item itemvalue="CMake Application.Widget-IOS" />
+      <item itemvalue="CMake Application.Widget-IOS-DebugGame" />
+      <item itemvalue="CMake Application.Widget-IOS-Shipping" />
+      <item itemvalue="CMake Application.Widget-Mac-DebugGame" />
+      <item itemvalue="CMake Application.Widget-Mac-Shipping" />
+      <item itemvalue="CMake Application.Widget-TVOS" />
+      <item itemvalue="CMake Application.Widget-TVOS-DebugGame" />
+      <item itemvalue="CMake Application.Widget-TVOS-Shipping" />
+      <item itemvalue="CMake Application.WidgetEditor" />
+      <item itemvalue="CMake Application.WidgetEditor-IOS" />
+      <item itemvalue="CMake Application.WidgetEditor-IOS-DebugGame" />
+      <item itemvalue="CMake Application.WidgetEditor-IOS-Shipping" />
+      <item itemvalue="CMake Application.WidgetEditor-Mac-DebugGame" />
+      <item itemvalue="CMake Application.WidgetEditor-Mac-Shipping" />
+      <item itemvalue="CMake Application.WidgetEditor-TVOS" />
+      <item itemvalue="CMake Application.WidgetEditor-TVOS-DebugGame" />
+      <item itemvalue="CMake Application.WidgetEditor-TVOS-Shipping" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f775bdb0-3366-413d-b7b4-fdc2178f979a" name="Default Changelist" comment="" />
+      <created>1572360475304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572360475304</updated>
+      <workItem from="1572360479474" duration="436000" />
+      <workItem from="1572363122070" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
