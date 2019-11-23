@@ -41,32 +41,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56c99539-8e83-48cf-894e-f5caf9aba17f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Ashiyu 4.23/Ashiyu.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../Ashiyu 4.23/Ashiyu.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ashiyu 4.23/Content/Maps/MyMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../Ashiyu 4.23/Content/Maps/MyMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ashiyu 4.23/Content/UI/HUD_BpUi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../Ashiyu 4.23/Content/UI/HUD_BpUi.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/BluePrints/BP_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/BluePrints/BP_Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Maps/MainMap_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Meshs/award.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Content/Meshs/award.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Cpp/Source/Cpp/Core/MainCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Build/HTML5/FileOpenOrder/EditorOpenOrder.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Build/HTML5/FileOpenOrder/EditorOpenOrder.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Main_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title.umap" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Content/Maps/Title_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.UE4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/Roguelike.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/UE4Game.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/HTML5/UE4Game.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Roguelike.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.AshiyuRoguelike/Roguelike/Roguelike.uproject" afterDir="false" />
-    </list>
+    <list default="true" id="56c99539-8e83-48cf-894e-f5caf9aba17f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +283,7 @@
       <workItem from="1572276385002" duration="877000" />
       <workItem from="1572358879381" duration="662000" />
       <workItem from="1572765514546" duration="1741000" />
-      <workItem from="1572966040703" duration="444000" />
+      <workItem from="1572966040703" duration="1005000" />
     </task>
     <servers />
   </component>
