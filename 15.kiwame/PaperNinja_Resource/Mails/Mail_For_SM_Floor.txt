@@ -1,0 +1,21 @@
+お疲れ様です。
+
+床材SM_Floor用のマテリアルを2種作ったのですが、アセットがチェックアウト中だった
+ため、私の方で適用作業ができませんでした。
+
+お手数ですが、SM_Floorの断面部分に、
+
+Material'/Game/Architecture/Materials/M_FloorSide.M_FloorSide'
+
+を。
+SM_Floorの床面部分に、
+
+Material'/Game/Architecture/Materials/M_Floor.M_Floor'
+
+を適用していただけないでしょうか。
+
+明日より一週間リフレッシュ休暇をいただきます。
+緊急の場合は XXXX@XXX.XX までご連絡ください。
+
+以上よろしくお願いいたします。
+

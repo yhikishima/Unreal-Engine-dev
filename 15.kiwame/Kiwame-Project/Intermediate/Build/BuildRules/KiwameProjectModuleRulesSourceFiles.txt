@@ -1,0 +1,3 @@
+C:\Users\lalla\work\unreal\Unreal-Engine\15.kiwame\Kiwame-Project\Source\MyProject\MyProject.Build.cs
+C:\Users\lalla\work\unreal\Unreal-Engine\15.kiwame\Kiwame-Project\Source\MyProject.Target.cs
+C:\Users\lalla\work\unreal\Unreal-Engine\15.kiwame\Kiwame-Project\Source\MyProjectEditor.Target.cs
